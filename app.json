@@ -6,7 +6,7 @@
     "RSS",
     "Ruby"
   ],
-  "website": "https://github.com/stringer-rss/stringer",
+  "website": "https://github.com/HelloAngela/rss_reader_stringer",
   "success_url": "/heroku",
   "scripts": {
     "postdeploy": "bundle exec rake db:migrate"
