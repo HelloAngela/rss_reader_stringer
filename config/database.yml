@@ -13,6 +13,7 @@ test:
   pool: 5
 
 production:
+  adapter: postgresql
   url: <%= ENV["DATABASE_URL"] %>
   encoding: unicode
   pool: <%= Integer(ENV.fetch("DB_POOL", 15)) %>
